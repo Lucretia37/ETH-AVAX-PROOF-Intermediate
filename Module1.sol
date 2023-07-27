@@ -5,7 +5,7 @@ contract ErrorHandlingContract {
     uint256 public balance;
 
     function deposit(uint256 amount) public {
-        // Use require() to validate the input condition
+        // validate the input condition
         require(amount > 0, "Amount should be greater than zero");
 
         // Perform the deposit
@@ -13,7 +13,7 @@ contract ErrorHandlingContract {
     }
 
     function withdraw(uint256 amount) public {
-        // Use assert() to check for invariants
+        // check for invariants
         assert(balance >= amount);
 
         // Use revert() to handle exceptional conditions
