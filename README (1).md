@@ -16,7 +16,6 @@ Deploy the contract using a Solidity development environment like Remix.
 Open the ExceptionHandlingContract.sol file in the IDE.
 Set Solidity compiler to ^0.8.0, then compile the code.
 Deploy the contract and interact with its functions for hands-on learning.
-
 ```javascript
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
