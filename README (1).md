@@ -18,21 +18,22 @@ Set Solidity compiler to ^0.8.0, then compile the code.
 Deploy the contract and interact with its functions for hands-on learning.
 
 ```javascript
-pragma solidity ^0.8.4;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
 
-contract HelloWorld {
-    function sayHello() public pure returns (string memory) {
-        return "Hello World!";
+contract ErrorHandlingContract {
+    uint256 public balance;
+
+    function deposit(uint256 amount) public {
+        // validate the input condition
+        require(amount > 0, "Amount should be greater than zero");
+
+        // Perform the deposit
+        balance += amount;
     }
-}
 
 ```
-
-To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.4" (or another compatible version), and then click on the "Compile HelloWorld.sol" button.
-
-Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "HelloWorld" contract from the dropdown menu, and then click on the "Deploy" button.
-
-Once the contract is deployed, you can interact with it by calling the sayHello function. Click on the "HelloWorld" contract in the left-hand sidebar, and then click on the "sayHello" function. Finally, click on the "transact" button to execute the function and retrieve the "Hello World!" message.
+ 
 
 ## Authors
 
