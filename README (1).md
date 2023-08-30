@@ -1,6 +1,6 @@
 # ExceptionHandlingContract
 
-This React component encapsulates a straightforward Crypto ATM application, seamlessly integrating with users' MetaMask wallets. This dynamic interface showcases account balance viewing, ETH deposit and withdrawal, and access to the owner's name.
+The ExceptionHandlingContract is a Solidity smart contract that demonstrates the usage of require(), assert(), and revert() statements for exception handling in Ethereum smart contract development.
 
 ## Description
 
