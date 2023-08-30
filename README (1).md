@@ -1,18 +1,21 @@
 # ExceptionHandlingContract
 
-The ExceptionHandlingContract is a Solidity smart contract that demonstrates the usage of require(), assert(), and revert() statements for exception handling in Ethereum smart contract development.
+This repository houses a Solidity smart contract that serves as an illustrative example for effectively utilizing require(), assert(), and revert() statements within the context of Ethereum smart contract development.
 
 ## Description
 
-This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. The contract has a single function that returns the string "Hello World!". This program serves as a simple and straightforward introduction to Solidity programming, and can be used as a stepping stone for more complex projects in the future.
+This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Error Handling . This  Solidity smart contract  exemplifies require(), assert(), and revert() statements, showcasing their effective use in Ethereum smart contract development. Explore how these statements enhance reliability in decentralized applications.
 
 ## Getting Started
 
 ### Executing program
 
-To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
+To run this program, you can use Remix, an online Solidity IDE. 
 
-Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., HelloWorld.sol). Copy and paste the following code into the file:
+Deploy the contract using a Solidity development environment like Remix.
+Open the ExceptionHandlingContract.sol file in the IDE.
+Set Solidity compiler to ^0.8.0, then compile the code.
+Deploy the contract and interact with its functions for hands-on learning.
 
 ```javascript
 pragma solidity ^0.8.4;
