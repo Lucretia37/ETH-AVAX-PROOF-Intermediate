@@ -1,6 +1,6 @@
-# Hello World
+# ExceptionHandlingContract
 
-This Solidity program is a simple "Hello World" program that demonstrates the basic syntax and functionality of the Solidity programming language. The purpose of this program is to serve as a starting point for those who are new to Solidity and want to get a feel for how it works.
+This React component encapsulates a straightforward Crypto ATM application, seamlessly integrating with users' MetaMask wallets. This dynamic interface showcases account balance viewing, ETH deposit and withdrawal, and access to the owner's name.
 
 ## Description
 
