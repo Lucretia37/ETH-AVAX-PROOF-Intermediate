@@ -28,7 +28,7 @@ contract ErrorHandlingContract {
         require(amount > 0, "Amount should be greater than zero");
 
         // Perform the deposit
-        balance += amount;
+        balance += amount;/
     }
 
 ```
