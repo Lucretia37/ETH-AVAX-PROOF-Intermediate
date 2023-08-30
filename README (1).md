@@ -37,10 +37,8 @@ contract ErrorHandlingContract {
 
 ## Authors
 
-Metacrafter Chris  
-[@metacraftersio](https://twitter.com/metacraftersio)
-
-
+Lucretia37
+ 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
